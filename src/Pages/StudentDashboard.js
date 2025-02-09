@@ -207,7 +207,7 @@ const StudentDashboard = () => {
                                             <ul className="ml-4 mt-2 space-y-2 border-l-2 border-white pl-4">
                                                 <li><Link to="/student-dashboard/protocols/patient-registration" className="block hover:text-gray-300">📝 Patient Registration</Link></li>
                                                 <li><Link to="/student-dashboard/protocols/patient-preparation" className="block hover:text-gray-300">🛠 Patient Preparation</Link></li>
-                                                <li><Link to="/student-dashboard/protocols/pre-counselling" className="block hover:text-gray-300">📄 Precounselling & Consent</Link></li>
+                                                <li><Link to="/student-dashboard/protocols/consent-form" className="block hover:text-gray-300">📄 Precounselling & Consent</Link></li>
                                                 <li><Link to="/student-dashboard/protocols/patient-positioning" className="block hover:text-gray-300">📌 Patient Positioning</Link></li>
                                                 
                                                 <li><Link to="/student-dashboard/protocols/image-acquisition" className="block hover:text-gray-300">📷 Image Acquisition</Link></li>
