@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect  } from 'react';
+import React, { useState} from 'react';
 import axios from 'axios';
 import casesData from '../data/cases.json'; // Import the JSON file
 import Select from 'react-select';
