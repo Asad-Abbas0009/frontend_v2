@@ -11,6 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+/* Statistics Card */
+.stat-card {
+  @apply flex flex-col items-center justify-center p-6 rounded-lg shadow-lg text-center transition transform hover:scale-105;
+}
+
+.stat-icon {
+  @apply text-4xl mb-2 text-white drop-shadow-lg;
+}
+
+/* Dashboard Quick Action Cards */
+.dashboard-card {
+  @apply flex flex-col items-center justify-center bg-indigo-500 text-white p-4 rounded-lg shadow-md hover:bg-indigo-600 transition transform hover:scale-105;
+}
+
+.icon {
+  @apply text-4xl mb-2 drop-shadow-lg;
+}
