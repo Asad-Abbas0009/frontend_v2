@@ -90,13 +90,13 @@ import { useState, useEffect } from 'react';
 import ImageComparison from './Components/ImageComparison';
 import CaseReview from './Components/CaseReview'
 import PatientRegistration from './Pages/Protocols/PatientRegistration'
-import PatientRegistration from './Pages/Protocols/PatientRegistration'
-import PatientRegistration from './Pages/Protocols/PatientRegistration'
-import PatientRegistration from './Pages/Protocols/PatientRegistration'
-import PatientRegistration from './Pages/Protocols/PatientRegistration'
-import PatientRegistration from './Pages/Protocols/PatientRegistration'
-import PatientRegistration from './Pages/Protocols/PatientRegistration'
-import PatientRegistration from './Pages/Protocols/PatientRegistration'
+import PatientPreparation from './Pages/Protocols/Patient-Preparation'
+import ConsentForm from './Pages/Protocols/ConsentForm'
+import PatientPositioning from './Pages/Protocols/PatientPositioning'
+import ImageAcquisition from './Pages/Protocols/ImageAcquisition'
+import PostCounselling from './Pages/Protocols/PostCounselling'
+import ImageReporting from './Pages/Protocols/ImageReporting'
+import ImageAnalysis from './Pages/Protocols/ImageAnalysis'
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -142,6 +142,7 @@ function App() {
           <Route path="protocols/image-acquisition" element={<ImageAcquisition />} />
           <Route path="protocols/post-counselling" element={<PostCounselling />} />
           <Route path="protocols/image-reporting" element={<ImageReporting />} />
+          <Route path="protocols/image-analysis" element={<ImageAnalysis />} />
         </Route>
         <Route path='/teacher-dashboard/*' element={<TeacherDashboard />}>
           <Route path='home' element={<TeacherHome />} />
