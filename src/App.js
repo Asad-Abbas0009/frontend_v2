@@ -90,6 +90,13 @@ import { useState, useEffect } from 'react';
 import ImageComparison from './Components/ImageComparison';
 import CaseReview from './Components/CaseReview'
 import PatientRegistration from './Pages/Protocols/PatientRegistration'
+import PatientRegistration from './Pages/Protocols/PatientRegistration'
+import PatientRegistration from './Pages/Protocols/PatientRegistration'
+import PatientRegistration from './Pages/Protocols/PatientRegistration'
+import PatientRegistration from './Pages/Protocols/PatientRegistration'
+import PatientRegistration from './Pages/Protocols/PatientRegistration'
+import PatientRegistration from './Pages/Protocols/PatientRegistration'
+import PatientRegistration from './Pages/Protocols/PatientRegistration'
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -129,12 +136,12 @@ function App() {
           <Route path='report' element={<Chatbot />} />
           {/* Protocol Routes inside Courses */}
           <Route path="protocols/patient-registration" element={<PatientRegistration />} />
-          <Route path="protocols/patient-preparation" element={<PatientRegistration />} />
-          <Route path="protocols/pre-counselling" element={<PatientRegistration />} />
-          <Route path="protocols/patient-positioning" element={<PatientRegistration />} />
-          <Route path="protocols/image-acquisition" element={<PatientRegistration />} />
-          <Route path="protocols/post-counselling" element={<PatientRegistration />} />
-          <Route path="protocols/image-reporting" element={<PatientRegistration />} />
+          <Route path="protocols/patient-preparation" element={<PatientPreparation />} />
+          <Route path="protocols/consent-form" element={<ConsentForm />} />
+          <Route path="protocols/patient-positioning" element={<PatientPositioning />} />
+          <Route path="protocols/image-acquisition" element={<ImageAcquisition />} />
+          <Route path="protocols/post-counselling" element={<PostCounselling />} />
+          <Route path="protocols/image-reporting" element={<ImageReporting />} />
         </Route>
         <Route path='/teacher-dashboard/*' element={<TeacherDashboard />}>
           <Route path='home' element={<TeacherHome />} />
